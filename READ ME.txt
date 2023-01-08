@@ -1,0 +1,56 @@
+
+This will run on windows 10 64bit on any computers or laptops.
+
+This steps will guide you to setup the application.
+
+Step 1 : Download and install winrarr 
+	link here ~> https://www.win-rar.com/start.html?&L=0
+	Winrarr is extracting downloaded zip files or archieves files.
+
+Step 2 : Download the complete instalation .
+     	Extract the downloaded zip file to desktop for easy to find your downloaded zip file location.
+
+Step 3 : Open the Extracted file : 
+	Find The File : filename - complete installation
+	
+
+Step 4 : Install The JDK file.
+	This will help you to run the application. POS.jar file.
+
+Step 5: Install the XAMPP 
+	Xampp is your database. all data will recorded here.
+
+Step 6: Open the xampp control panel: Press the button Start of Apache and MySQL -next find the button config at the top-left corner and press it. 
+	Configuration of control panel: Autostart of modules. 
+	Please check the following: Apache, MySQL , and Start Control Panel Minimized.
+	And hit save button. 
+	Please paste the link to any browser : http://localhost/phpmyadmin/
+	to create new database. Press 'New' at the left side :
+        Database name : gma_accountingdb
+	Then press create. You have now database.
+	Next press your database at the left side. gma_accountingdb and press the button import on the top.
+	File to import : press choose file goto your downloaded filename complete installation folder. and find the file Table.sql select and open and press 'go button' at the buttom right side.
+	
+	
+	When you restart the computer / laptop
+ 	This set up will auto start the Apache and MySQL and also minimized the xampp.
+
+	The database will now communicate to your application.
+
+Step 7: Search the xampp control panel to your window search and then right click it and find 
+	the 'Open file location' and find the file : XAMPP Control Panel copy and paste here Start up~>
+	
+	Start Up location;
+	Please copy: %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup 
+	and paste to your window search then hit enter.
+
+	This will automatically open the xampp control panel and start the ff.
+
+Step 8: Go to your complete installation folder / GMA_Accounting / dist folder.
+	Copy the POS to your destop and run it. 
+
+ 
+	Thats all, thank you for your patients and efforts. 
+
+	
+	
